@@ -1,0 +1,33 @@
+API
+Application Program Interface
+
+Client (front-end) <=> API <=> Databas (server side)
+
+API
+GET
+POST
+PATCH
+DELETE
+
+request (req) => {
+    1. Endpoint => alamat dari request yang diminta
+        - eg. //localhost-2000/cart
+        - /cart => dipesan users
+        - /transaction => sudah dicheckout
+        - /users => data-data user
+    2. Method
+        - GET => Axios.get => ambil data
+        - POST => Axios.post => submit data
+        - PATCH => Axios.patch => edit/ganti properti tertentu
+        - PUT => Axios.put => edit
+        - DELETE => Axios.delete => hapus data
+    3. Header (permission)
+        bawa informasi tambahan untuk permission di API 
+        pertama Login dapat token <==> JKDH3343KD
+        TOKEN
+        Ganti password
+        JKDH3343KD
+        JK8DIFHYEU <=> permission rejected karena tidak sama
+    4. Data
+        Data baru POST, PATCH, PUT
+}
